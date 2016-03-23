@@ -38,3 +38,4 @@ Import-Module ActiveDirectory
 NEW-ADUSER Bob -AccountPassword (ConvertTo-SecureString "P4ssw0rd" -AsPlainText -force) -enabled $true 
 NEW-ADUSER John -AccountPassword (ConvertTo-SecureString "C0mput3r" -AsPlainText -force) -enabled $true 
 Add-ADGroupMember "Domain Admins" Bob
+
